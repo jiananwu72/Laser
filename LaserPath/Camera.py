@@ -6,5 +6,5 @@ cap = cv2.VideoCapture('/dev/video0', cv2.CAP_V4L)
 
 # take frame
 ret, frame = cap.read()
-cv2.imwrite('Laser/LaserPath/RawImages/Calibration/calib1.jpg', frame)
+cv2.imwrite('Laser/LaserPath/RawImages/Degree tests/65Raw.jpg', frame)
 cap.release()

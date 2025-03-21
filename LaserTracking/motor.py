@@ -15,7 +15,11 @@ sys.path.append(os.path.expanduser("~/Laser"))
 # sys.path.append("Laser")
 from functions import laser_function as lf
 from functions import motor_function as mf 
+from math import floor
+from adafruit_rplidar import RPLidar
 
+# Define the LIDAR port (Change if needed)
+PORT_NAME = "/dev/ttyUSB0"
 pca = mf.servo_motor_initialization()
 mf.motor_start(pca)
 mf.motor_speed(pca, 0)
@@ -23,6 +27,7 @@ time.sleep(1)
 mf.motor_speed(pca, 0.14) 
 try:
     while True:
+        
         time.sleep(1)
 except KeyboardInterrupt:
     mf.motor_speed(pca, 0)  
