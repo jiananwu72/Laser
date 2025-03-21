@@ -29,7 +29,7 @@ vertical_servo = servo.Servo(pca.channels[y_direction])
 steer_servo =servo.Servo(pca.channels[steer])
 # Set initial servo positions to 90° (center)
 horizontal_angle = 96
-vertical_angle = 90
+vertical_angle = 30
 horizontal_servo.angle = horizontal_angle
 vertical_servo.angle = vertical_angle
 
@@ -53,15 +53,11 @@ scan_step=2
 # Minimum contour area to consider (laser point is typically small)
 min_area = 10
 pca = mf.servo_motor_initialization()
-mf.motor_start(pca)
 mf.motor_speed(pca, 0)
 time.sleep(1)
-mf.motor_speed(pca, 0.14) 
 
 try:
     while True:
-        time.sleep(0.1)
-    #while True:
         ret, frame = cap.read()
         if not ret:
             print("Failed to capture frame.")
@@ -72,7 +68,9 @@ try:
 
         # Try to track the laser
         tracking_result = lf.laser_tracking(frame, kp, horizontal_angle, vertical_angle)
+        
         if tracking_result is not None:
+            mf.motor_speed(pca, 0.135) 
             horizontal_angle, vertical_angle = tracking_result
             # Update servo positions based on tracking
             horizontal_servo.angle = horizontal_angle
@@ -81,7 +79,9 @@ try:
             steer_servo.angle = steer_angle
             print(f"Laser tracking: H_angle={horizontal_angle:.2f}, V_angle={vertical_angle:.2f}, Steer={steer_angle:.2f}")
         else:
-            # If no laser found, update scanning angles
+
+            # If no laser found, update scanning angles and motor stoped 
+            mf.motor_speed(pca, 0) 
             current_scan_angle = lf.laser_searching(current_scan_angle, scan_h, scan_v)
             horizontal_servo.angle, vertical_servo.angle = current_scan_angle
             print(f"Laser searching: H_angle={current_scan_angle[0]:.2f}, V_angle={current_scan_angle[1]:.2f}")
