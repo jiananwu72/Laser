@@ -22,7 +22,9 @@ from functions import motor_function as mf
 from math import floor
 from adafruit_rplidar import RPLidar
 
-# Define the LIDAR port (Change if needed)
+i2c = busio.I2C(SCL, SDA)
+pca = PCA9685(i2c)
+pca.frequency = 100  
 PORT_NAME = "/dev/ttyUSB0"
 pca = mf.servo_motor_initialization()
 mf.motor_speed(pca, 0)
@@ -31,12 +33,17 @@ time.sleep(1)
 
 # Define the LIDAR port (Change if needed)
 PORT_NAME = "/dev/ttyUSB0"
+steer=14
 detection=1000
+steer_servo =servo.Servo(pca.channels[steer])
 # Initialize the LIDAR
 lidar = RPLidar(None, PORT_NAME, timeout=3)
 output_file = "test_data/lidar_data.csv"
 dis_less=[]
 distances=[]
+steer_angle=90
+steer_servo.angle=steer_angle
+
 try:
     print("Starting LIDAR scan...")
     
@@ -46,7 +53,7 @@ try:
 
         for scan in lidar.iter_scans():
                 for (_, angle, distance) in scan:
-                    if angle >= 110 and angle <= 280:
+                    if angle >= 105 and angle <= 255:
                         distances.append(distance)
                         if distance < detection:
                              dis_less.append(distance)
