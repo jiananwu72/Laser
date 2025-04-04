@@ -28,13 +28,14 @@ steer_servo =servo.Servo(pca.channels[steer])
 steer_angle=90
 steer_servo.angle=steer_angle
 pca = mf.servo_motor_initialization()
-#mf.motor_start(pca)
+mf.motor_start(pca)
 mf.motor_speed(pca, 0)
 time.sleep(1)
 
 try:
     while True:
         mf.motor_speed(pca, 0.135) 
+
 except KeyboardInterrupt:
     mf.motor_speed(pca, 0)  
     pca.deinit()
