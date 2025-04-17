@@ -1,0 +1,128 @@
+[2.188s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.197s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaad43d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaaf21240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaaf21240>>)
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/Laser/LaserTracking/ros2_ws'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.530s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extensions ['ignore', 'ignore_ament_install']
+[3.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extension 'ignore'
+[3.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extension 'ignore_ament_install'
+[3.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extensions ['colcon_pkg']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extension 'colcon_pkg'
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extensions ['colcon_meta']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extension 'colcon_meta'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extensions ['ros']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/picar_control) by extension 'ros'
+[3.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/picar_control' with type 'ros.ament_python' and name 'picar_control'
+[3.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.978s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.030s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[4.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.596s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'cmake_args' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'cmake_target' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.598s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.598s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.598s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.599s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.600s] Level 5:colcon.colcon_core.verb:set package 'picar_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.601s] DEBUG:colcon.colcon_core.verb:Building package 'picar_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control', 'merge_install': False, 'path': '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control', 'symlink_install': False, 'test_result_base': None}
+[4.602s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.611s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control' with build type 'ament_python'
+[4.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('picar_control', 'ament_prefix_path')
+[4.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/hook/ament_prefix_path.ps1'
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/hook/ament_prefix_path.dsv'
+[4.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/hook/ament_prefix_path.sh'
+[4.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.466s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control'
+[6.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control': PYTHONPATH=/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_control build --build-base /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build install --record /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log --single-version-externally-managed install_data
+[21.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control' returned '0': PYTHONPATH=/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_control build --build-base /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build install --record /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log --single-version-externally-managed install_data
+[21.500s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control' for CMake module files
+[21.505s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control' for CMake config files
+[21.513s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib'
+[21.516s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/bin'
+[21.517s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/pkgconfig/picar_control.pc'
+[21.520s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages'
+[21.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('picar_control', 'pythonpath')
+[21.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/hook/pythonpath.ps1'
+[21.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/hook/pythonpath.dsv'
+[21.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/hook/pythonpath.sh'
+[21.541s] Level 1:colcon.colcon_core.environment:checking '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/bin'
+[21.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(picar_control)
+[21.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/package.ps1'
+[21.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/package.dsv'
+[21.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/package.sh'
+[21.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/package.bash'
+[21.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/package.zsh'
+[21.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/colcon-core/packages/picar_control)
+[21.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.591s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.636s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.638s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.692s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[21.694s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/Laser/LaserTracking/ros2_ws/install/local_setup.ps1'
+[21.705s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/Laser/LaserTracking/ros2_ws/install/_local_setup_util_ps1.py'
+[21.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/Laser/LaserTracking/ros2_ws/install/setup.ps1'
+[21.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/Laser/LaserTracking/ros2_ws/install/local_setup.sh'
+[21.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/Laser/LaserTracking/ros2_ws/install/_local_setup_util_sh.py'
+[21.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/Laser/LaserTracking/ros2_ws/install/setup.sh'
+[21.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/Laser/LaserTracking/ros2_ws/install/local_setup.bash'
+[21.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/Laser/LaserTracking/ros2_ws/install/setup.bash'
+[21.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/Laser/LaserTracking/ros2_ws/install/local_setup.zsh'
+[21.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/Laser/LaserTracking/ros2_ws/install/setup.zsh'

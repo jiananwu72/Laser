@@ -1,0 +1,8 @@
+[console_scripts]
+camera_publisher = picar_control.camera_publisher:main
+camera_servo_subscriber = picar_control.camera_servo_subscriber:main
+laser_tracker = picar_control.laser_tracker:main
+lidar_publisher = picar_control.lidar_publisher:main
+motor_subscriber = picar_control.motor_subscriber:main
+obstacle_avoidance = picar_control.obstacle_avoidance:main
+steer_servo_subscriber = picar_control.steer_servo_subscriber:main

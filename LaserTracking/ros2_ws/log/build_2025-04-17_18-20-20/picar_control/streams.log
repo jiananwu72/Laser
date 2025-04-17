@@ -1,0 +1,27 @@
+[3.687s] Invoking command in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control': PYTHONPATH=/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_control build --build-base /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build install --record /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log --single-version-externally-managed install_data
+[4.808s] running egg_info
+[4.881s] writing ../../build/picar_control/picar_control.egg-info/PKG-INFO
+[4.883s] writing dependency_links to ../../build/picar_control/picar_control.egg-info/dependency_links.txt
+[4.885s] writing entry points to ../../build/picar_control/picar_control.egg-info/entry_points.txt
+[4.887s] writing requirements to ../../build/picar_control/picar_control.egg-info/requires.txt
+[4.888s] writing top-level names to ../../build/picar_control/picar_control.egg-info/top_level.txt
+[5.037s] reading manifest file '../../build/picar_control/picar_control.egg-info/SOURCES.txt'
+[5.041s] writing manifest file '../../build/picar_control/picar_control.egg-info/SOURCES.txt'
+[5.042s] running build
+[5.043s] running build_py
+[5.047s] running install
+[5.069s] running install_lib
+[5.162s] running install_data
+[5.163s] running install_egg_info
+[5.245s] removing '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.248s] Copying ../../build/picar_control/picar_control.egg-info to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control-0.0.0-py3.10.egg-info
+[5.254s] running install_scripts
+[6.111s] Installing camera_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.112s] Installing camera_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.113s] Installing laser_tracker script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.114s] Installing lidar_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.115s] Installing motor_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.116s] Installing obstacle_avoidance script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.117s] Installing steer_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[6.120s] writing list of installed files to '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log'
+[6.258s] Invoked command in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control' returned '0': PYTHONPATH=/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_control build --build-base /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build install --record /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log --single-version-externally-managed install_data

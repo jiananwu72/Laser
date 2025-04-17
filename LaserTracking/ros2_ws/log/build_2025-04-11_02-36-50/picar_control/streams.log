@@ -1,0 +1,45 @@
+[4.587s] Invoking command in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control': PYTHONPATH=/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_control build --build-base /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build install --record /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log --single-version-externally-managed install_data
+[5.734s] running egg_info
+[5.809s] writing ../../build/picar_control/picar_control.egg-info/PKG-INFO
+[5.810s] writing dependency_links to ../../build/picar_control/picar_control.egg-info/dependency_links.txt
+[5.812s] writing entry points to ../../build/picar_control/picar_control.egg-info/entry_points.txt
+[5.813s] writing requirements to ../../build/picar_control/picar_control.egg-info/requires.txt
+[5.814s] writing top-level names to ../../build/picar_control/picar_control.egg-info/top_level.txt
+[5.986s] reading manifest file '../../build/picar_control/picar_control.egg-info/SOURCES.txt'
+[5.993s] writing manifest file '../../build/picar_control/picar_control.egg-info/SOURCES.txt'
+[5.995s] running build
+[5.997s] running build_py
+[5.999s] copying picar_control/camera_servo_subscriber.py -> /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control
+[6.001s] copying picar_control/camera_publisher.py -> /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control
+[6.002s] copying picar_control/obstacle_avoidance.py -> /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control
+[6.004s] copying picar_control/motor_subscriber.py -> /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control
+[6.006s] copying picar_control/laser_tracker.py -> /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control
+[6.007s] copying picar_control/lidar_publisher.py -> /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control
+[6.009s] running install
+[6.034s] running install_lib
+[6.109s] copying /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control/camera_servo_subscriber.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control
+[6.110s] copying /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control/camera_publisher.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control
+[6.112s] copying /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control/obstacle_avoidance.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control
+[6.114s] copying /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control/motor_subscriber.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control
+[6.115s] copying /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control/laser_tracker.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control
+[6.116s] copying /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build/lib/picar_control/lidar_publisher.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control
+[6.119s] byte-compiling /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/camera_servo_subscriber.py to camera_servo_subscriber.cpython-310.pyc
+[6.123s] byte-compiling /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/camera_publisher.py to camera_publisher.cpython-310.pyc
+[6.126s] byte-compiling /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[6.131s] byte-compiling /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/motor_subscriber.py to motor_subscriber.cpython-310.pyc
+[6.134s] byte-compiling /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/laser_tracker.py to laser_tracker.cpython-310.pyc
+[6.138s] byte-compiling /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/lidar_publisher.py to lidar_publisher.cpython-310.pyc
+[6.141s] running install_data
+[6.142s] running install_egg_info
+[6.226s] removing '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.228s] Copying ../../build/picar_control/picar_control.egg-info to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control-0.0.0-py3.10.egg-info
+[6.239s] running install_scripts
+[7.120s] Installing camera_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.121s] Installing camera_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.122s] Installing laser_tracker script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.124s] Installing lidar_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.125s] Installing motor_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.126s] Installing obstacle_avoidance script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.127s] Installing steer_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+[7.129s] writing list of installed files to '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log'
+[7.267s] Invoked command in '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control' returned '0': PYTHONPATH=/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_control build --build-base /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build install --record /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log --single-version-externally-managed install_data

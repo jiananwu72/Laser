@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing picar_control.egg-info/PKG-INFO
+writing dependency_links to picar_control.egg-info/dependency_links.txt
+writing entry points to picar_control.egg-info/entry_points.txt
+writing requirements to picar_control.egg-info/requires.txt
+writing top-level names to picar_control.egg-info/top_level.txt
+reading manifest file 'picar_control.egg-info/SOURCES.txt'
+writing manifest file 'picar_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar-control.egg-link (link to .)
+Installing camera_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+Installing camera_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+Installing laser_tracker script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+Installing lidar_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+Installing motor_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+Installing obstacle_avoidance script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+Installing steer_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control
+
+Installed /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control
+running symlink_data
+symbolically linking /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/resource/picar_control -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/ament_index/resource_index/packages
+symbolically linking /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/package.xml -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control
+symbolically linking /home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/launch/picar_launch.py -> /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/share/picar_control/launch

@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.002660] (picar_control) JobQueued: {'identifier': 'picar_control', 'dependencies': OrderedDict()}
+[0.002942] (picar_control) JobStarted: {'identifier': 'picar_control'}
+[0.093817] (-) TimerEvent: {}
+[0.194764] (-) TimerEvent: {}
+[0.297281] (-) TimerEvent: {}
+[0.399902] (-) TimerEvent: {}
+[0.502061] (-) TimerEvent: {}
+[0.605692] (-) TimerEvent: {}
+[0.708166] (-) TimerEvent: {}
+[0.811101] (-) TimerEvent: {}
+[0.915589] (-) TimerEvent: {}
+[1.019954] (-) TimerEvent: {}
+[1.121064] (-) TimerEvent: {}
+[1.221983] (-) TimerEvent: {}
+[1.322882] (-) TimerEvent: {}
+[1.471636] (-) TimerEvent: {}
+[1.572571] (-) TimerEvent: {}
+[1.673612] (-) TimerEvent: {}
+[1.774707] (-) TimerEvent: {}
+[1.876410] (-) TimerEvent: {}
+[1.977404] (-) TimerEvent: {}
+[2.078482] (-) TimerEvent: {}
+[2.180540] (-) TimerEvent: {}
+[2.283899] (-) TimerEvent: {}
+[2.385892] (-) TimerEvent: {}
+[2.487882] (-) TimerEvent: {}
+[2.589978] (-) TimerEvent: {}
+[2.692329] (-) TimerEvent: {}
+[2.800922] (-) TimerEvent: {}
+[2.902767] (-) TimerEvent: {}
+[3.005151] (-) TimerEvent: {}
+[3.107995] (-) TimerEvent: {}
+[3.211102] (-) TimerEvent: {}
+[3.314190] (-) TimerEvent: {}
+[3.417017] (-) TimerEvent: {}
+[3.519646] (-) TimerEvent: {}
+[3.622361] (-) TimerEvent: {}
+[3.723930] (-) TimerEvent: {}
+[3.826473] (-) TimerEvent: {}
+[3.928580] (-) TimerEvent: {}
+[4.030695] (-) TimerEvent: {}
+[4.132788] (-) TimerEvent: {}
+[4.235254] (-) TimerEvent: {}
+[4.337672] (-) TimerEvent: {}
+[4.440505] (-) TimerEvent: {}
+[4.543120] (-) TimerEvent: {}
+[4.645542] (-) TimerEvent: {}
+[4.746563] (-) TimerEvent: {}
+[4.847495] (-) TimerEvent: {}
+[4.959495] (-) TimerEvent: {}
+[5.062038] (-) TimerEvent: {}
+[5.165263] (-) TimerEvent: {}
+[5.268745] (-) TimerEvent: {}
+[5.371535] (-) TimerEvent: {}
+[5.473968] (-) TimerEvent: {}
+[5.576752] (-) TimerEvent: {}
+[5.679819] (-) TimerEvent: {}
+[5.782288] (-) TimerEvent: {}
+[5.884886] (-) TimerEvent: {}
+[5.990205] (-) TimerEvent: {}
+[6.099782] (-) TimerEvent: {}
+[6.202760] (-) TimerEvent: {}
+[6.305434] (-) TimerEvent: {}
+[6.408122] (-) TimerEvent: {}
+[6.510204] (-) TimerEvent: {}
+[6.612806] (-) TimerEvent: {}
+[6.715129] (-) TimerEvent: {}
+[6.817413] (-) TimerEvent: {}
+[6.919757] (-) TimerEvent: {}
+[7.022156] (-) TimerEvent: {}
+[7.124752] (-) TimerEvent: {}
+[7.227569] (-) TimerEvent: {}
+[7.331099] (-) TimerEvent: {}
+[7.434442] (-) TimerEvent: {}
+[7.539834] (-) TimerEvent: {}
+[7.648456] (-) TimerEvent: {}
+[7.751826] (-) TimerEvent: {}
+[7.855745] (-) TimerEvent: {}
+[7.958264] (-) TimerEvent: {}
+[8.064060] (-) TimerEvent: {}
+[8.166232] (-) TimerEvent: {}
+[8.268802] (-) TimerEvent: {}
+[8.371553] (-) TimerEvent: {}
+[8.474348] (-) TimerEvent: {}
+[8.578465] (-) TimerEvent: {}
+[8.679637] (-) TimerEvent: {}
+[8.780986] (-) TimerEvent: {}
+[8.881858] (-) TimerEvent: {}
+[8.982811] (-) TimerEvent: {}
+[9.084211] (-) TimerEvent: {}
+[9.185199] (-) TimerEvent: {}
+[9.286137] (-) TimerEvent: {}
+[9.387064] (-) TimerEvent: {}
+[9.488154] (-) TimerEvent: {}
+[9.589066] (-) TimerEvent: {}
+[9.690208] (-) TimerEvent: {}
+[9.791392] (-) TimerEvent: {}
+[9.892506] (-) TimerEvent: {}
+[9.993447] (-) TimerEvent: {}
+[10.094318] (-) TimerEvent: {}
+[10.195070] (-) TimerEvent: {}
+[10.296107] (-) TimerEvent: {}
+[10.397099] (-) TimerEvent: {}
+[10.462376] (picar_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/picar_control', 'build', '--build-base', '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/build', 'install', '--record', '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chen/Laser/LaserTracking/ros2_ws/src/picar_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chen', 'SSH_CLIENT': '172.27.168.36 51953 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/chen/.vscode-server/cli/servers/Stable-4949701c880d4bdb949e3c0e6b400288da7f474b/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/chen/.vscode-server/cli/servers/Stable-4949701c880d4bdb949e3c0e6b400288da7f474b/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/chen', 'OLDPWD': '/home/chen', 'TERM_PROGRAM_VERSION': '1.99.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ca41b84a-3895-4c21-a1d9-50f75e0c501d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/chen/.vscode-server/cli/servers/Stable-4949701c880d4bdb949e3c0e6b400288da7f474b/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/chen/.vscode-server/cli/servers/Stable-4949701c880d4bdb949e3c0e6b400288da7f474b/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/chen/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/chen/.local/bin:/home/chen/.vscode-server/cli/servers/Stable-4949701c880d4bdb949e3c0e6b400288da7f474b/server/bin/remote-cli:/home/chen/.local/bin:/home/chen/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/chen/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/chen/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/chen/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-bbfebbb486ae4df3.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9972a7889a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control', 'SSH_CONNECTION': '172.27.168.36 51953 172.27.49.112 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages:/usr/lib/aarch64-linux-gnu/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/usr/lib/aarch64-linux-gnu/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.497515] (-) TimerEvent: {}
+[10.598718] (-) TimerEvent: {}
+[10.699786] (-) TimerEvent: {}
+[10.801011] (-) TimerEvent: {}
+[10.902004] (-) TimerEvent: {}
+[11.003151] (-) TimerEvent: {}
+[11.104247] (-) TimerEvent: {}
+[11.205358] (-) TimerEvent: {}
+[11.306246] (-) TimerEvent: {}
+[11.407085] (-) TimerEvent: {}
+[11.508015] (-) TimerEvent: {}
+[11.608881] (-) TimerEvent: {}
+[11.709700] (-) TimerEvent: {}
+[11.810533] (-) TimerEvent: {}
+[11.911249] (-) TimerEvent: {}
+[12.012153] (-) TimerEvent: {}
+[12.114468] (-) TimerEvent: {}
+[12.215239] (-) TimerEvent: {}
+[12.317411] (-) TimerEvent: {}
+[12.418916] (-) TimerEvent: {}
+[12.428792] (picar_control) StdoutLine: {'line': b'running egg_info\n'}
+[12.506455] (picar_control) StdoutLine: {'line': b'writing ../../build/picar_control/picar_control.egg-info/PKG-INFO\n'}
+[12.508065] (picar_control) StdoutLine: {'line': b'writing dependency_links to ../../build/picar_control/picar_control.egg-info/dependency_links.txt\n'}
+[12.509764] (picar_control) StdoutLine: {'line': b'writing entry points to ../../build/picar_control/picar_control.egg-info/entry_points.txt\n'}
+[12.511168] (picar_control) StdoutLine: {'line': b'writing requirements to ../../build/picar_control/picar_control.egg-info/requires.txt\n'}
+[12.512012] (picar_control) StdoutLine: {'line': b'writing top-level names to ../../build/picar_control/picar_control.egg-info/top_level.txt\n'}
+[12.519141] (-) TimerEvent: {}
+[12.620213] (-) TimerEvent: {}
+[12.693370] (picar_control) StdoutLine: {'line': b"reading manifest file '../../build/picar_control/picar_control.egg-info/SOURCES.txt'\n"}
+[12.698789] (picar_control) StdoutLine: {'line': b"writing manifest file '../../build/picar_control/picar_control.egg-info/SOURCES.txt'\n"}
+[12.699647] (picar_control) StdoutLine: {'line': b'running build\n'}
+[12.700311] (picar_control) StdoutLine: {'line': b'running build_py\n'}
+[12.704108] (picar_control) StdoutLine: {'line': b'running install\n'}
+[12.720376] (-) TimerEvent: {}
+[12.727584] (picar_control) StdoutLine: {'line': b'running install_lib\n'}
+[12.806579] (picar_control) StdoutLine: {'line': b'running install_data\n'}
+[12.807869] (picar_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.820533] (-) TimerEvent: {}
+[12.902557] (picar_control) StdoutLine: {'line': b"removing '/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.915774] (picar_control) StdoutLine: {'line': b'Copying ../../build/picar_control/picar_control.egg-info to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control-0.0.0-py3.10.egg-info\n'}
+[12.918907] (picar_control) StdoutLine: {'line': b'running install_scripts\n'}
+[12.920777] (-) TimerEvent: {}
+[13.023223] (-) TimerEvent: {}
+[13.123971] (-) TimerEvent: {}
+[13.224617] (-) TimerEvent: {}
+[13.325271] (-) TimerEvent: {}
+[13.425952] (-) TimerEvent: {}
+[13.526620] (-) TimerEvent: {}
+[13.627314] (-) TimerEvent: {}
+[13.728252] (-) TimerEvent: {}
+[13.816883] (picar_control) StdoutLine: {'line': b'Installing camera_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.818005] (picar_control) StdoutLine: {'line': b'Installing camera_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.818995] (picar_control) StdoutLine: {'line': b'Installing laser_tracker script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.820140] (picar_control) StdoutLine: {'line': b'Installing lidar_publisher script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.821042] (picar_control) StdoutLine: {'line': b'Installing motor_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.822135] (picar_control) StdoutLine: {'line': b'Installing obstacle_avoidance script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.823004] (picar_control) StdoutLine: {'line': b'Installing steer_servo_subscriber script to /home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/picar_control\n'}
+[13.825280] (picar_control) StdoutLine: {'line': b"writing list of installed files to '/home/chen/Laser/LaserTracking/ros2_ws/build/picar_control/install.log'\n"}
+[13.828549] (-) TimerEvent: {}
+[13.929853] (-) TimerEvent: {}
+[13.956838] (picar_control) CommandEnded: {'returncode': 0}
+[14.030004] (-) TimerEvent: {}
+[14.044939] (picar_control) JobEnded: {'identifier': 'picar_control', 'rc': 0}
+[14.048577] (-) EventReactorShutdown: {}

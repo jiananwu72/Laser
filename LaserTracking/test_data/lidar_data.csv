@@ -1,0 +1,442 @@
+Angle,Distance,Speed,Description
+353,394.75,0.1,no obstacle detected
+353,395.5,0.1,no obstacle detected
+353,393.25,0.1,no obstacle detected
+352,394.0,0.1,no obstacle detected
+353,393.75,0.1,no obstacle detected
+352,394.25,0.1,no obstacle detected
+354,393.5,0.1,no obstacle detected
+353,391.75,0.1,no obstacle detected
+353,390.0,0.1,no obstacle detected
+354,388.5,0.1,no obstacle detected
+345,319.0,0.1,no obstacle detected
+353,385.5,0.1,no obstacle detected
+353,385.25,0.1,no obstacle detected
+346,312.25,0.1,no obstacle detected
+352,385.25,0.1,no obstacle detected
+353,387.0,0.1,no obstacle detected
+352,389.0,0.1,no obstacle detected
+353,389.25,0.1,no obstacle detected
+353,390.5,0.1,no obstacle detected
+346,323.75,0.1,no obstacle detected
+353,392.75,0.1,no obstacle detected
+345,326.25,0.1,no obstacle detected
+346,327.75,0.1,no obstacle detected
+352,400.0,0.1,no obstacle detected
+346,335.0,0.1,no obstacle detected
+346,337.0,0.1,no obstacle detected
+346,336.0,0.1,no obstacle detected
+346,332.0,0.1,no obstacle detected
+353,406.5,0.1,no obstacle detected
+345,335.0,0.1,no obstacle detected
+352,413.75,0.1,no obstacle detected
+353,415.5,0.1,no obstacle detected
+352,417.75,0.1,no obstacle detected
+346,338.75,0.1,no obstacle detected
+347,337.5,0.1,no obstacle detected
+347,338.25,0.1,no obstacle detected
+346,343.5,0.1,no obstacle detected
+346,351.5,0.1,no obstacle detected
+352,424.25,0.1,no obstacle detected
+353,409.25,0.1,no obstacle detected
+353,415.75,0.1,no obstacle detected
+347,396.0,0.1,no obstacle detected
+346,391.0,0,obstacle detected
+349,406.25,0,obstacle detected
+348,409.0,0,obstacle detected
+349,412.5,0,obstacle detected
+349,415.75,0,obstacle detected
+349,414.0,0,obstacle detected
+349,414.5,0,obstacle detected
+349,413.0,0,obstacle detected
+350,414.25,0,obstacle detected
+350,419.5,0,obstacle detected
+353,432.75,0,obstacle detected
+348,415.75,0.1,no obstacle detected
+348,435.0,0.1,no obstacle detected
+349,437.75,0.1,no obstacle detected
+349,437.0,0.1,no obstacle detected
+349,437.25,0.1,no obstacle detected
+348,435.5,0.1,no obstacle detected
+353,471.25,0.1,no obstacle detected
+352,476.25,0.1,no obstacle detected
+352,466.5,0.1,no obstacle detected
+352,459.25,0.1,no obstacle detected
+353,456.25,0.1,no obstacle detected
+352,454.25,0.1,no obstacle detected
+352,440.75,0.1,no obstacle detected
+352,434.5,0.1,no obstacle detected
+351,421.5,0,obstacle detected
+351,412.25,0,obstacle detected
+350,408.0,0,obstacle detected
+350,418.75,0.1,no obstacle detected
+350,417.25,0.1,no obstacle detected
+350,418.0,0.1,no obstacle detected
+350,419.5,0.1,no obstacle detected
+353,433.0,0.1,no obstacle detected
+352,436.5,0.1,no obstacle detected
+353,444.0,0.1,no obstacle detected
+353,446.0,0.1,no obstacle detected
+352,447.0,0.1,no obstacle detected
+352,443.75,0.1,no obstacle detected
+353,450.0,0.1,no obstacle detected
+348,410.0,0.1,no obstacle detected
+348,406.0,0.1,no obstacle detected
+348,404.0,0.1,no obstacle detected
+349,403.0,0.1,no obstacle detected
+348,399.25,0.1,no obstacle detected
+348,401.5,0.1,no obstacle detected
+349,408.75,0.1,no obstacle detected
+340,345.0,0.1,no obstacle detected
+348,393.5,0.1,no obstacle detected
+352,423.5,0.1,no obstacle detected
+353,422.75,0.1,no obstacle detected
+353,423.25,0.1,no obstacle detected
+353,423.5,0.1,no obstacle detected
+353,422.75,0.1,no obstacle detected
+352,425.75,0.1,no obstacle detected
+352,429.25,0.1,no obstacle detected
+353,433.25,0.1,no obstacle detected
+348,410.5,0.1,no obstacle detected
+348,434.75,0.1,no obstacle detected
+344,495.0,0.1,no obstacle detected
+350,516.0,0,obstacle detected
+350,519.75,0,obstacle detected
+350,508.5,0,obstacle detected
+349,506.5,0,obstacle detected
+349,510.5,0,obstacle detected
+350,501.5,0,obstacle detected
+352,462.0,0,obstacle detected
+348,408.25,0,obstacle detected
+348,398.0,0,obstacle detected
+349,400.5,0,obstacle detected
+349,396.25,0.1,no obstacle detected
+351,394.0,0.1,no obstacle detected
+351,391.0,0.1,no obstacle detected
+351,391.0,0.1,no obstacle detected
+351,393.0,0.1,no obstacle detected
+351,393.75,0.1,no obstacle detected
+351,386.5,0.1,no obstacle detected
+351,385.25,0.1,no obstacle detected
+345,300.0,0.1,no obstacle detected
+350,375.25,0.1,no obstacle detected
+351,375.0,0.1,no obstacle detected
+351,381.0,0.1,no obstacle detected
+347,301.25,0.1,no obstacle detected
+352,387.0,0.1,no obstacle detected
+353,386.5,0.1,no obstacle detected
+352,392.5,0.1,no obstacle detected
+350,401.75,0,obstacle detected
+352,399.5,0,obstacle detected
+351,407.0,0,obstacle detected
+351,396.5,0,obstacle detected
+350,390.25,0,obstacle detected
+349,389.5,0,obstacle detected
+349,383.25,0,obstacle detected
+350,379.0,0,obstacle detected
+350,381.0,0,obstacle detected
+349,382.25,0,obstacle detected
+349,381.25,0,obstacle detected
+349,381.5,0,obstacle detected
+350,382.25,0,obstacle detected
+351,386.5,0,obstacle detected
+350,385.25,0,obstacle detected
+350,386.0,0,obstacle detected
+350,384.25,0,obstacle detected
+349,385.5,0,obstacle detected
+349,384.0,0,obstacle detected
+350,384.25,0,obstacle detected
+350,382.75,0,obstacle detected
+350,384.0,0,obstacle detected
+350,385.0,0,obstacle detected
+350,387.5,0,obstacle detected
+349,384.5,0,obstacle detected
+350,384.0,0,obstacle detected
+350,383.75,0,obstacle detected
+349,383.5,0,obstacle detected
+351,382.5,0,obstacle detected
+350,384.25,0,obstacle detected
+350,383.5,0,obstacle detected
+350,382.75,0,obstacle detected
+350,382.75,0,obstacle detected
+351,383.75,0,obstacle detected
+350,383.75,0,obstacle detected
+350,381.25,0,obstacle detected
+350,384.0,0,obstacle detected
+351,383.25,0,obstacle detected
+350,381.5,0,obstacle detected
+350,383.0,0,obstacle detected
+350,381.75,0,obstacle detected
+350,383.75,0,obstacle detected
+350,384.25,0,obstacle detected
+350,385.5,0,obstacle detected
+350,381.75,0,obstacle detected
+350,383.25,0,obstacle detected
+349,387.5,0,obstacle detected
+349,391.5,0,obstacle detected
+350,390.5,0,obstacle detected
+350,379.0,0,obstacle detected
+350,372.25,0,obstacle detected
+352,369.0,0,obstacle detected
+353,364.75,0,obstacle detected
+353,368.25,0,obstacle detected
+353,374.25,0,obstacle detected
+353,374.25,0,obstacle detected
+353,354.0,0,obstacle detected
+353,343.25,0.1,no obstacle detected
+352,344.5,0,obstacle detected
+353,351.5,0,obstacle detected
+352,351.0,0.1,no obstacle detected
+353,347.0,0.1,no obstacle detected
+353,343.5,0.1,no obstacle detected
+353,345.75,0.1,no obstacle detected
+343,308.0,0.1,no obstacle detected
+353,359.5,0.1,no obstacle detected
+354,363.5,0.1,no obstacle detected
+347,323.0,0.1,no obstacle detected
+346,321.0,0.1,no obstacle detected
+354,369.5,0.1,no obstacle detected
+344,321.0,0.1,no obstacle detected
+347,320.75,0.1,no obstacle detected
+346,321.25,0.1,no obstacle detected
+348,319.75,0.1,no obstacle detected
+352,311.5,0.1,no obstacle detected
+350,310.0,0.1,no obstacle detected
+350,315.5,0.1,no obstacle detected
+350,326.75,0.1,no obstacle detected
+349,356.0,0,obstacle detected
+350,388.75,0.1,no obstacle detected
+351,425.0,0.1,no obstacle detected
+353,464.5,0,obstacle detected
+353,471.5,0.1,no obstacle detected
+352,477.0,0.1,no obstacle detected
+353,488.5,0,obstacle detected
+351,496.25,0,obstacle detected
+352,511.25,0,obstacle detected
+352,525.75,0,obstacle detected
+352,516.25,0,obstacle detected
+348,500.5,0,obstacle detected
+352,539.5,0,obstacle detected
+352,514.75,0,obstacle detected
+352,498.25,0,obstacle detected
+349,454.0,0,obstacle detected
+351,429.75,0,obstacle detected
+352,416.75,0.1,no obstacle detected
+352,422.25,0.1,no obstacle detected
+353,430.0,0.1,no obstacle detected
+353,436.0,0.1,no obstacle detected
+353,436.5,0,obstacle detected
+352,432.25,0,obstacle detected
+352,432.25,0,obstacle detected
+351,435.0,0,obstacle detected
+352,452.25,0,obstacle detected
+352,470.5,0,obstacle detected
+352,485.25,0,obstacle detected
+352,488.25,0,obstacle detected
+353,488.5,0,obstacle detected
+352,483.75,0,obstacle detected
+352,479.5,0,obstacle detected
+352,475.0,0,obstacle detected
+352,474.0,0,obstacle detected
+352,474.75,0,obstacle detected
+353,474.0,0,obstacle detected
+352,475.0,0,obstacle detected
+352,475.25,0,obstacle detected
+352,477.5,0,obstacle detected
+352,478.0,0,obstacle detected
+352,481.5,0,obstacle detected
+352,484.0,0,obstacle detected
+352,486.25,0,obstacle detected
+352,488.0,0,obstacle detected
+352,488.25,0,obstacle detected
+352,488.5,0,obstacle detected
+352,488.0,0,obstacle detected
+352,488.5,0,obstacle detected
+353,486.25,0,obstacle detected
+352,489.25,0,obstacle detected
+352,490.0,0,obstacle detected
+351,490.0,0,obstacle detected
+351,488.75,0,obstacle detected
+351,487.5,0,obstacle detected
+350,487.5,0,obstacle detected
+351,487.75,0,obstacle detected
+351,489.0,0,obstacle detected
+350,493.25,0,obstacle detected
+350,496.5,0,obstacle detected
+351,500.25,0,obstacle detected
+350,501.0,0,obstacle detected
+352,506.5,0,obstacle detected
+349,497.0,0,obstacle detected
+350,501.0,0,obstacle detected
+351,487.25,0,obstacle detected
+351,466.75,0,obstacle detected
+349,458.25,0,obstacle detected
+351,459.0,0,obstacle detected
+352,465.0,0,obstacle detected
+352,472.0,0,obstacle detected
+352,473.5,0,obstacle detected
+353,467.75,0,obstacle detected
+353,470.75,0.1,no obstacle detected
+353,479.5,0.1,no obstacle detected
+353,503.75,0.1,no obstacle detected
+351,526.0,0.1,no obstacle detected
+351,543.75,0.1,no obstacle detected
+352,554.0,0.1,no obstacle detected
+351,551.5,0.1,no obstacle detected
+352,545.5,0.1,no obstacle detected
+352,531.5,0.1,no obstacle detected
+352,528.0,0.1,no obstacle detected
+352,525.25,0.1,no obstacle detected
+352,521.75,0.1,no obstacle detected
+352,526.25,0.1,no obstacle detected
+352,522.25,0.1,no obstacle detected
+351,520.75,0.1,no obstacle detected
+352,521.75,0.1,no obstacle detected
+351,517.75,0.1,no obstacle detected
+352,520.75,0.1,no obstacle detected
+352,519.75,0.1,no obstacle detected
+352,520.0,0.1,no obstacle detected
+352,511.0,0.1,no obstacle detected
+351,507.0,0.1,no obstacle detected
+352,507.75,0.1,no obstacle detected
+352,504.25,0.1,no obstacle detected
+352,496.0,0.1,no obstacle detected
+352,494.5,0.1,no obstacle detected
+353,486.0,0.1,no obstacle detected
+352,491.0,0.1,no obstacle detected
+351,493.25,0.1,no obstacle detected
+353,483.5,0.1,no obstacle detected
+352,482.75,0.1,no obstacle detected
+351,483.25,0.1,no obstacle detected
+351,481.5,0.1,no obstacle detected
+353,465.0,0.1,no obstacle detected
+352,459.0,0.1,no obstacle detected
+352,459.0,0.1,no obstacle detected
+351,463.75,0.1,no obstacle detected
+352,456.0,0.1,no obstacle detected
+353,460.25,0.1,no obstacle detected
+353,463.25,0.1,no obstacle detected
+352,469.0,0.1,no obstacle detected
+353,461.25,0.1,no obstacle detected
+353,462.75,0.1,no obstacle detected
+352,466.5,0.1,no obstacle detected
+353,473.0,0.1,no obstacle detected
+352,495.25,0.1,no obstacle detected
+351,538.0,0.1,no obstacle detected
+352,586.75,0.1,no obstacle detected
+351,606.5,0.1,no obstacle detected
+351,636.25,0.1,no obstacle detected
+351,579.25,0,obstacle detected
+351,606.5,0,obstacle detected
+352,618.0,0,obstacle detected
+351,616.0,0,obstacle detected
+351,618.0,0,obstacle detected
+352,603.0,0,obstacle detected
+351,603.0,0,obstacle detected
+351,548.25,0,obstacle detected
+351,552.0,0,obstacle detected
+352,476.0,0,obstacle detected
+353,430.25,0.1,no obstacle detected
+353,397.5,0.1,no obstacle detected
+352,386.25,0.1,no obstacle detected
+352,387.0,0.1,no obstacle detected
+353,385.0,0.1,no obstacle detected
+352,384.5,0.1,no obstacle detected
+353,387.25,0.1,no obstacle detected
+354,388.25,0.1,no obstacle detected
+354,396.0,0.1,no obstacle detected
+353,413.75,0.1,no obstacle detected
+353,430.75,0.1,no obstacle detected
+353,447.25,0.1,no obstacle detected
+354,362.75,0.1,no obstacle detected
+354,362.0,0.1,no obstacle detected
+354,358.5,0.1,no obstacle detected
+353,359.25,0.1,no obstacle detected
+354,359.25,0.1,no obstacle detected
+353,356.75,0.1,no obstacle detected
+354,355.0,0.1,no obstacle detected
+354,353.25,0.1,no obstacle detected
+353,351.75,0.1,no obstacle detected
+353,346.5,0.1,no obstacle detected
+353,342.0,0.1,no obstacle detected
+354,336.75,0.1,no obstacle detected
+353,342.5,0.1,no obstacle detected
+353,346.0,0.1,no obstacle detected
+353,352.25,0.1,no obstacle detected
+352,361.75,0.1,no obstacle detected
+353,378.5,0.1,no obstacle detected
+353,393.75,0.1,no obstacle detected
+351,388.75,0,obstacle detected
+352,411.25,0,obstacle detected
+353,493.75,0,obstacle detected
+352,507.0,0,obstacle detected
+352,537.0,0.1,no obstacle detected
+352,540.75,0.1,no obstacle detected
+352,542.0,0.1,no obstacle detected
+351,534.75,0.1,no obstacle detected
+352,540.5,0.1,no obstacle detected
+352,541.5,0.1,no obstacle detected
+351,533.25,0.1,no obstacle detected
+352,533.25,0.1,no obstacle detected
+351,415.5,0.1,no obstacle detected
+351,347.0,0.1,no obstacle detected
+354,324.75,0.1,no obstacle detected
+354,317.0,0.1,no obstacle detected
+354,316.5,0.1,no obstacle detected
+353,310.5,0.1,no obstacle detected
+354,306.25,0.1,no obstacle detected
+353,297.25,0.1,no obstacle detected
+354,286.25,0,obstacle detected
+354,282.0,0,obstacle detected
+355,281.5,0,obstacle detected
+353,280.25,0,obstacle detected
+353,284.0,0,obstacle detected
+352,284.5,0,obstacle detected
+350,286.75,0,obstacle detected
+350,287.75,0,obstacle detected
+348,292.0,0,obstacle detected
+347,298.5,0.1,no obstacle detected
+348,317.75,0.1,no obstacle detected
+349,333.75,0,obstacle detected
+349,333.0,0,obstacle detected
+353,351.25,0,obstacle detected
+350,338.75,0,obstacle detected
+353,343.25,0.1,no obstacle detected
+354,335.5,0,obstacle detected
+354,340.25,0.1,no obstacle detected
+353,337.5,0,obstacle detected
+353,338.5,0,obstacle detected
+353,339.25,0.1,no obstacle detected
+353,335.0,0.1,no obstacle detected
+354,320.25,0.1,no obstacle detected
+353,311.5,0,obstacle detected
+351,286.75,0,obstacle detected
+346,252.5,0.1,no obstacle detected
+351,279.5,0.1,no obstacle detected
+350,284.75,0.1,no obstacle detected
+353,395.0,0.1,no obstacle detected
+353,374.5,0.1,no obstacle detected
+352,363.5,0.1,no obstacle detected
+353,358.25,0.1,no obstacle detected
+353,364.25,0.1,no obstacle detected
+353,368.0,0.1,no obstacle detected
+353,372.25,0.1,no obstacle detected
+353,368.25,0.1,no obstacle detected
+353,366.0,0.1,no obstacle detected
+352,365.0,0.1,no obstacle detected
+354,365.25,0.1,no obstacle detected
+352,358.0,0.1,no obstacle detected
+353,361.0,0.1,no obstacle detected
+350,352.75,0.1,no obstacle detected
+351,346.5,0.1,no obstacle detected
+351,358.5,0.1,no obstacle detected
+350,360.25,0.1,no obstacle detected
+351,367.25,0,obstacle detected
+350,381.5,0,obstacle detected
+351,402.5,0,obstacle detected
+348,399.5,0,obstacle detected
+349,396.0,0,obstacle detected
+350,408.0,0,obstacle detected
+349,408.75,0,obstacle detected
+350,424.25,0,obstacle detected
+350,430.25,0,obstacle detected

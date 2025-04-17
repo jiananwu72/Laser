@@ -1,0 +1,5 @@
+  File "/home/chen/Laser/LaserTracking/ros2_ws/install/picar_control/lib/python3.10/site-packages/picar_control/lidar_publisher.py", line 54
+    self.lidar.stop
+                   ^
+SyntaxError: expected 'except' or 'finally' block
+
